@@ -1,0 +1,56 @@
+body,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilizando links para parecerem clicáveis */
+a {
+  cursor: pointer;
+  text-decoration: none; /* Removendo sublinhado padrão */
+  color: #007bff; /* Cor do link */
+  transition: color 0.2s; /* Transição suave de cor ao passar o mouse */
+}
+
+a:hover {
+  color: #0056b3; /* Cor do link ao passar o mouse */
+}
+
+/* Estilizando o botão de incremento em navegadores WebKit */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  /* Estilizando o botão de incremento com uma aparência personalizada */
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 50%; /* Transformando em um círculo */
+  width: 20px;
+  height: 20px;
+  font-size: 14px; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  cursor: pointer;
+  /* Outras propriedades de estilo */
+}
+
+/* Estilizando botões de forma mais profissional */
+button,
+input[type="submit"],
+input[type="button"] {
+  background-color: #3498db; /* Cor de fundo */
+  color: #ffffff; /* Cor do texto */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background-color: #2980b9; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
